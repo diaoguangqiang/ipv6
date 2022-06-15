@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="6"
+    android:orientation="vertical" >
+
+    <!-- 第1行 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/text_ip_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="IP地址:" />
+        <EditText
+            android:id="@+id/edit_ip_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入正确的IP地址" />
+    </LinearLayout>
+    <!-- 第2行 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/text_port_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="端口号:" />
+        <EditText
+            android:id="@+id/edit_port_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入正确的端口号" />
+    </LinearLayout>
+    <!-- 第3行 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/button_nkw_cnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="连接网络" />
+        <Button
+            android:id="@+id/button_nkw_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="断开网络" />
+        <TextView
+            android:id="@+id/text_nwk_state_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="网络断开" />
+    </LinearLayout>
+    <!-- 第4行 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/text_mq2_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="烟雾浓度:0%" />
+    </LinearLayout>
+    <!-- 第4行 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/text_temp_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="温度:0度" />
+    </LinearLayout>
+    <!-- 第4行 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/text_humi_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="湿度:0%" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/text_alarm_state_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="正常状态" />
+    </LinearLayout>
+    <!-- 第4行 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/edit_temp_alarm_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="温度上限值" />
+        <Button
+            android:id="@+id/button_set_temp_cnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置温度上限值" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/edit_humi_alarm_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="湿度上限值" />
+        <Button
+            android:id="@+id/button_set_humi_cnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置湿度上限值" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/edit_mq2_alarm_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="烟雾上限值" />
+        <Button
+            android:id="@+id/button_set_mq2_cnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置烟雾上限值" />
+    </LinearLayout>
+
+    <!-- 定义第一个表格布局，指定第2列允许收缩，第3列允许拉伸 -->
+
+
+</LinearLayout>
