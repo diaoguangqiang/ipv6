@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>机房环境监控</title>
+		<script src="../static/js/jquery.js"></script>
+		<script src="../static/js/echarts.min.js"></script>
+		<script src="../static/js/china.js"></script>
+		<script src="../static/js/worldcloud.js"></script>
+		<link href="../static/css/main.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="title">机房环境监测系统</div>
+        <div id="ipaddr"></div>
+		<div id="time"></div>
+		<div id="l1"></div>
+		<div id="l2"></div>
+		<div id="c1">
+			<div class="num">
+				<h1></h1>
+			</div>
+			<div class="num">
+				<h1></h1>
+			</div>
+			<div id="smoke" class="num">
+				<h1></h1>
+			</div>
+			<div id="count" class="num">
+				<h1></h1>
+			</div>
+			<div class="txt">
+				<h2>温度</h2>
+			</div>
+			<div class="txt">
+				<h2>湿度</h2>
+			</div>
+			<div class="txt">
+				<h2>烟雾</h2>
+			</div>
+			<div class="txt">
+				<h2>累积报警</h2>
+			</div>
+		</div>
+		<div id="c2"><img src="../static/img/0505.JPEG"></div>
+		<div id="r1"></div>
+		<div id="r2">
+		<h3 style="top: 0; position: absolute;">最新访客</h3>
+		<div id="getimg">
+			<img id="img" src="../static/img/0505.JPEG"
+			style="width:80%; height:100%; position: absolute;left: 20%;">
+		</div>
+			
+		</div>
+		<script src="../static/js/ec_center.js"></script>
+		<script src="../static/js/ec_left1.js"></script>
+		<script src="../static/js/ec_left2.js"></script>
+		<script src="../static/js/ec_right1.js"></script>
+		<!-- <script src="../static/js/ec_right2.js"></script> -->
+		<script src="../static/js/controller.js"></script>
+	</body>
+</html>

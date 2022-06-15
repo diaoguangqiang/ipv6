@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>test</title>
+	</head>
+	<body>
+		
+	<div id="imgreload" style="width: 20%; height: 20%; position: absolute; background-color: azure;">
+		
+		<img id="img" src="../static/img/0505.JPEG" style="width: 80%; height: 100%; position: absolute;">
+		
+		
+	</div>
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-8  offset-lg-2">
+            <h3 class="mt-5">Live Streaming</h3>
+            <img src="{{ url_for('video_feed') }}" width="100%" style="height: 50%;width: 50%;position: absolute; right: 5%">
+        </div>
+    </div>
+</div>
+		
+	</body>
+</html>
